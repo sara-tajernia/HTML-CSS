@@ -1,0 +1,111 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+li {
+    float: right;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    margin-top: 16px;
+    color: #111111;
+}
+  
+li a,img {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #111111;
+}
+
+  
+li a:hover:not(.active), img:hover{
+    background-color: rgb(183, 183, 183);
+    color: #111111;
+}
+
+ul > :first-child{
+    float: left;
+    border: 2px solid;
+    margin: 15px;
+}
+
+
+.background-img-container {
+    background-position: center center;
+    background-image: url(./assets/image/worker22.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* filter: brightness(90%); */
+    /* height: 500px; */
+}
+
+.title{
+    font-size: 60px;
+}
+
+.margin_title{
+    margin-left: 35%;
+    margin-top: 10%; 
+}
+
+.button_header{
+    background-color: #f9bf3a;
+    margin-bottom: 30%;
+    /* padding-bottom: 1000px; */
+    /* color: #f9bf3a; */
+}
+
+.see-detail{
+    width: 7%;
+    /* height: 5%; */
+}
+
+.background-p3{
+    background-color: #222222;
+}
+
+.title-p3{
+    font-size: 35px;
+}
+
+.background-p3{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: repeating-linear-gradient(145deg, #111111 0px, #111111 5px, #131313 5px, #131313 20px)
+}
+
+.button-p3{
+    background-color: #ffcd3d;
+    font-size: 13px;
+    border-radius: 8px;
+    border: 0px;
+}
+
+.check-p4{
+    width: 8%;
+    height: 8%;
+}
+
+.background-p5{
+    background-color: #f1f5f8;
+}
+
+.text-p5{
+    color: #949595;
+}
+
+.text2-p5{
+    color: #686868;
+
+}
+.see-detail-p6{
+    width: 15%;
+}
+
+
